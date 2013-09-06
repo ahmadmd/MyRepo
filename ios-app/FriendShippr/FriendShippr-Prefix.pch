@@ -1,0 +1,48 @@
+//
+// Prefix header for all source files of the 'FriendShippr' target in the 'FriendShippr' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "FSConstants.h"
+    #import "UIImageView+WebCache.h"
+#endif
+
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+//FriendshipprDev Keys..
+#define Parse_Client_Key @"RX9qaICSb0P1ErkiFpv2dGJwnXRi74IUF3sID446"
+#define Parse_Application_ID @"X7Ga8jHw3sOA47eLCpmzaFXOOJUiyRjLFboovryy"
+
+#define Facebook_id @"412435288877305"
+
+#define Flurry_API_key @"GT8XZ743CW3WMFNS86MX"
+
+#define Semantic_API_Endpoint @"https://api.semantics3.com/v1/products"
+#define Semantic_OAUTH_KEY @"SEM3CEF61D11EE7F2F91DECF2B4BE3DD06DE"
+#define Semantic_OAUTH_SECRET @"ZGE2MGM0OThiOWRhZTY1OTJmZDU2NzgwM2MxYjhjNzc"
+//#define Semantic_OAUTH_KEY @"SEM37FE02D4799025CC2AE2B0D2CB9AC2100"
+//#define Semantic_OAUTH_SECRET @"YzA1OTNlMDIyYTM2MmY2YzUwNDY2MGMzZWNkYTNjOTE"
+
+#define Google_API_Key @"AIzaSyBLpsMjEJUift9Selhw9GQEh05j78R6uEU"
+#define Google_StaticMapsAPI_url @"http://maps.googleapis.com/maps/api/staticmap?"
+#define Google_PlacesAPI_url @"http://maps.google.com/maps/api/geocode/json?"
+//#define Google_PlacesAPI_url @"https://maps.googleapis.com/maps/api/place/textsearch/json?"
+
+#define Friendshippr_DB_NAME @"Friendshippr.sqlite"
+
+#define navBarRightCloseBttn @"closed_button@2x.png"
+#define navBarBackBttn @"nav_bar_previous_icon.png"
+
+#define introScreenImages @"intro.png",@"intro.png",@"intro.png",@"intro.png",@"intro.png",@"intro.png", nil
+
+#define FB_profilepicSmall_url @"https://graph.facebook.com/%@/picture?type=square"
+#define FB_profilepic_url @"https://graph.facebook.com/%@/picture?type=large"
+#define No_product_url @"http://www.ojsp.ca/resources/BgProductImage/NoProduct.jpg"
